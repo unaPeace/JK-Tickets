@@ -51,6 +51,7 @@ body {
 
 .field-finish {
   position: absolute;
+  margin: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -58,12 +59,12 @@ body {
 	background: -moz-linear-gradient(-45deg, #e0a675 0%, #3f555c 100%);
 	background: -webkit-linear-gradient(-45deg, #e0a675 0%, #3f555c 100%);
 	background: linear-gradient(135deg, #e0a675 0%, #3f555c 100%);
-  height: 50px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 0px;
   transition: all 0.5s ease;
 }
 
@@ -112,7 +113,6 @@ body {
 .field-name i,
 .field-email i,
 .field-password i,
-.field-finish i,
 .field-location i,
 .field-destination i,
 .field-transport i {
@@ -174,6 +174,13 @@ div.active {
     margin: auto;
 }
 
+.fa-heart2:before{
+  content:url(Media/JK\ Thank\ 2.png);
+  width:100px;
+  height: auto;
+  margin: auto;
+}
+
 .fa-train:before{
   content:url(Media/IMG/Button\ Icons/train-icon.png);
   margin: 50px;
@@ -221,6 +228,11 @@ div.active {
 .fad.fa-heart:after{
     content:url(Media/JK\ Logo.png)
 }
+
+.fad.fa-heart2:after{
+  content:url(Media/JK\ Thank\ 2.png.png)
+}
+
 
 .fad.fa-key:after{
     content: url(Media/key.png);
