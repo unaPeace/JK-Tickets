@@ -22,7 +22,7 @@
     height: 30px;
     display: inline-block;
     font-size: 28px;
-    color: white;
+    color: #e0a675;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -66,13 +66,13 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.65);
+    background-color: rgba(0,0,0,0.30);
 }
 
 /* This represents the progress bar */
 .orange-juice {
-    height: 10px;
+    height: 6px;
     /* width: 100px;  */
     /* background-color: orangered; */
-    background-color: rgba(255, 69, 0, 0.5);
+    background-color: rgb(224, 165, 117);
 }

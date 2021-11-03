@@ -18,6 +18,11 @@ body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #222;
 }
+
+#days, #hours, #minutes, #seconds, #timetag {
+	color: white;
+}
+
 /* Grid
 ********************************************************************* */  
 .container {
