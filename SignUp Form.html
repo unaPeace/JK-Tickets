@@ -7,6 +7,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="initial-scale=1.0; width=device-width">
   <link rel="stylesheet" href="./signUpStyle.css">
+  <script>
+    function submitForm() {
+      document.getElementBiId(buyform).submit();
+    }
+  </script>
 
 </head>
 
@@ -37,7 +42,7 @@
     </div>
 
     <div class="field-finish innactive">
-      <a class="fas fa-heart" href="index.html"></a>
+      <a onclick="submitForm()" class="fas fa-heart" href="index.html"></a>
     </div>
 
   </form>
